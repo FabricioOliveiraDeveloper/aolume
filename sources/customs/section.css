@@ -90,3 +90,56 @@
     font-style: oblique;
     color: #7e7e7e;
 }
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    
+    /* section */
+    #section{
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/backgrounds/bg_07.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center right;
+        position: relative;
+        z-index: 2;
+    }
+
+
+    .section-box{
+        width: 100%;
+        height: 100%;
+        background: #00000042;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+
+
+}
